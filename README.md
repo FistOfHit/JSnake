@@ -1,7 +1,9 @@
 # JSnake #
 
+<a href="https://imgur.com/YEl65K6"><img src="https://i.imgur.com/YEl65K6.png" title="source: imgur.com" /></a>
+
 A VERY light weight game of snake made in plain JavaScript for a bit of fun when you're bored and there is no internet. Made after 
-watching <a href = "https://www.youtube.com/watch?v=xGmXxpIj6vs&list=WL&index=1>this</a> video on Youtube by Gamkedo. Obviously, I've 
+watching <a href = "https://www.youtube.com/watch?v=xGmXxpIj6vs&list=WL&index=1">this</a> video on Youtube by Gamkedo. Obviously, I've 
 changed the code a fair amount to make things less "hacky" and clearer, but it's still nevertheless very simple and quick to run. 
 
 ## Requirements and Installation ## 
