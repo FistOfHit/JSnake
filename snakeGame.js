@@ -42,7 +42,7 @@ function snakeGame() {
     // Colour the whole snake
     context.fillStyle = "lime";
     for(var i = 0; i < trail.length; i++) {
-        context.fillRect(trail[i].x*gridSize, trail[i].y*gridSize, gridSize-2, gridSize-2);
+        context.fillRect((trail[i].x)*gridSize, (trail[i].y)*gridSize, gridSize-2, gridSize-2);
         // Restart if you eat your own tail
         if((trail[i].x == posX) && (trail[i].y == posY)) {
             tail = 5;
@@ -57,11 +57,11 @@ function snakeGame() {
     // Grow after eating apple
     if((appleX == posX) && (appleY == posY)) {
         tail++;
-        appleX=Math.floor(Math.random()*numTiles);
-        appleY=Math.floor(Math.random()*numTiles);
+        appleX = Math.floor(Math.random()*numTiles);
+        appleY = Math.floor(Math.random()*numTiles);
     }
     // Create new apple in random location
-    context.fillStyle="red";
+    context.fillStyle = "red";
     context.fillRect(appleX*gridSize, appleY*gridSize, gridSize-2, gridSize-2);
 }
 
